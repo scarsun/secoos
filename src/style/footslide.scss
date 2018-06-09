@@ -1,0 +1,79 @@
+.carousel {
+	position: relative;
+	margin: 50px auto;
+	width: 1200px;
+	height: 310px;
+	overflow: hidden;
+	.carousel-list {
+		position: relative;
+		width: 6000px;
+		li {
+			float: left;
+			width:1200px;
+			height:310px;
+			a{
+				float:left;
+				margin-right:106px;
+				width:220px;
+				color:#000;
+				transition:all .1s;
+				img{
+					width:100%;
+				}
+				&:last-child{
+					margin-right:0;
+				}
+				&:hover{
+					color:#f8a120;
+				}
+				p{
+					margin:33px 0 12px;
+					font-size:18px;
+					line-height:18px;
+					overflow:hidden;
+					text-overflow:ellipsis;
+					white-space:nowrap;
+				}
+				span{
+					font-size:16px;
+				}
+			}
+		}
+	}
+	.direction-btn {
+		display: none;
+		a{
+			position: absolute;
+			display:block;
+			width:29px;
+			height:220px;
+			line-height:220px;
+			text-align:center;
+			color: #fff; 
+		}
+		.prev {
+			left:0;
+		}
+		.next {
+			right:0;
+		}
+	}
+	
+}
+.dots{
+	position: absolute;
+	left: 50%;
+	margin-left:-78px;
+	bottom: -30px;
+	width: 136px;
+	a {
+		margin: 6px 2px;
+		display: inline-block;
+		width: 20px;
+		height: 3px;
+		background: #cccccc;
+	}
+	.active {
+		background: #f8a120;
+	}
+}
