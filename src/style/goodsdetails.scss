@@ -4,7 +4,7 @@ body{
 section{
 	width:1200px;
 	margin:0 auto;
-	/*小导航开始*/
+	/*小导航*/
 	.smallNav{
 		width:100%;
 		padding:30px 0 20px;
@@ -29,8 +29,7 @@ section{
 			font-family:"宋体";
 		}
 	}
-	/*小导航结束*/
-	/*放大镜内容开始*/
+	/*放大镜*/
 	.contents{
 		box-shadow:0 2px 5px #ccc;
 		width:1110px;
@@ -45,7 +44,9 @@ section{
 			margin-bottom:85px;
 			z-index:2;
 			.imgShow{
-				dd{
+				width: 80px;
+				height: 400px;
+				.dd{
 					width:80px;
 					height:400px;
 					border-right:1px solid #ededed;
@@ -59,9 +60,12 @@ section{
 						width:80px;
 						height:400px;
 						overflow:hidden;
-						a{
-							display:block;
+						float: left;
+						li{
+							display: block;
+							width: 80px;
 							height:79px;
+							float: left;
 							margin:0 0 1px 0;
 							position:relative;
 							overflow:hidden;
@@ -80,13 +84,14 @@ section{
 						}
 					}
 				}
-				dt{
+				.bigImgBox{
 					width:400px;
 					height:400px;
 					float:left;
 					position:relative;
 					.bigImg{
-						width:100%;
+						width:400px;
+						height: 400px;
 					}
 					.zoomSpan{
 						display:none;
@@ -346,8 +351,6 @@ section{
 			}
 		}
 	}
-	/*放大镜内容结束*/
-	/*产品展示开始*/
 	.productShow_box{
 		padding-top:30px;
 		width:1210px;
@@ -566,5 +569,4 @@ section{
 			}
 		}
 	}
-	/*产品展示结束*/
 }
