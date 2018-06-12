@@ -45,7 +45,7 @@ $(function(){
 	});
 
 	//小图移入效果
-	$(".move_box a").mouseenter(function(){
+	$(".move_box li").mouseenter(function(){
 		//小图添加边框
 		$(this).addClass("on").siblings().removeClass("on");
 		var index=$(this).index();

@@ -1,5 +1,5 @@
 // /*
-// 	封装轮播图类
+// 	封装轮播图
 // */
 // class Carousel{
 // 	constructor({el,timeout=3000}){
