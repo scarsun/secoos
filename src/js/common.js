@@ -64,6 +64,9 @@ function changeCode(){
 	var imgCode=document.getElementById("logImgCode");
 	imgCode.src="http://passport.secoo.com/common/captcha.jsp?type=login&amp;t=1521162329545";
 }
+
+
+
 //cookie读取
 // 添加和修改cookie
 function setCookie(name, value, days, path) {
